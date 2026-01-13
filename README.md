@@ -1,6 +1,35 @@
 # Spring-Boot-WebFlux-Java-17
 
-**Spring Boot + WebFlux (Java 17) – Full Project Example**
+# 🌊 Spring WebFlux – Complete Explanation
+**1. What is WebFlux?**
+
+Spring WebFlux is a non-blocking, reactive web framework introduced in Spring 5.
+
+👉 It is designed to handle high concurrency with fewer threads using an event-driven model.
+
+**2. Why WebFlux was introduced?**
+
+**Problem with traditional (Spring MVC)**
+
+One thread per request
+
+Threads block during DB / API calls
+
+Threads are expensive
+
+High traffic = thread starvation
+
+**WebFlux solution**
+
+Uses Reactive Streams
+
+Uses event loop instead of thread-per-request
+
+Handles 10x more concurrent requests with same resources
+
+====================== X ====================== X ================================
+
+# Spring Boot + WebFlux (Java 17) – Full Project Example
 
 This is a production‑style, reactive Spring Boot WebFlux project using Java 17.
 
